@@ -4,14 +4,14 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Amrap = () => (
+const Tabata = () => (
   <Layout>
-    <SEO title="AMRAP" />
-    <h1>AMRAP</h1>
-    <p>As many rounds as possible in</p>
+    <SEO title="Tabata" />
+    <h1>Tabata</h1>
+    <p>Set your tabata timer</p>
     <button>Start timer</button>
     <Link to="/">Go back</Link>
   </Layout>
 )
 
-export default Amrap
+export default Tabata

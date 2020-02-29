@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Boss timer`,
+    description: `Set WOD timers like AMRAP, For time, EMOM and Tabata`,
+    author: `Edwin Bos`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

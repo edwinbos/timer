@@ -4,14 +4,14 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Amrap = () => (
+const ForTime = () => (
   <Layout>
-    <SEO title="AMRAP" />
-    <h1>AMRAP</h1>
-    <p>As many rounds as possible in</p>
+    <SEO title="For time" />
+    <h1>For time</h1>
+    <p>As fast as possible for time</p>
     <button>Start timer</button>
     <Link to="/">Go back</Link>
   </Layout>
 )
 
-export default Amrap
+export default ForTime
