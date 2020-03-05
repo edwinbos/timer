@@ -43,7 +43,7 @@ const Countdown = ({ seconds }) => {
 
   return (
     <div>
-      <div class="countdown">
+      <div class="amrap__countdown countdown">
         { countdown ? formatTime(countdown) : '' }
         { !countdown && timeLeft ? formatTime(timeLeft) : '' }
         { !countdown && !timeLeft ? 'Done' : ''}

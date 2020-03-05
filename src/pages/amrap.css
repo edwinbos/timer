@@ -1,0 +1,36 @@
+.amrap {
+    height: 80vw;
+    position: relative;
+    width: 80vw;
+}
+
+.amrap__input {
+    border-radius: 50%;
+    font-size: 7rem;
+    height: 80vw;
+    width: 80vw;
+}
+
+.amrap__countdown {
+    align-items: center;
+    background: var(--color--white);
+    border-radius: 50%;
+    color: var(--color--black);
+    display: flex;
+    font-size: 7rem;
+    height: 90vw;
+    justify-content: center;
+    width: 90vw;
+}
+
+.amrap__button {
+    border: 0;
+    border-radius: 0;
+    bottom: 0;
+    clip-path: polygon(4% 0, 100% 8%, 95% 94%, 11% 100%);
+    font-weight: 700;
+    height: 25vw;
+    position: absolute;
+    right: 0;
+    width: 25vw;
+}

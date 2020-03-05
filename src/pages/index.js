@@ -8,8 +8,11 @@ import TimerTypes from "../components/timerTypes"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Timer</h1>
-      <TimerTypes />
+    <div class="header">
+      <div></div>
+      <h1>Timer</h1>
+    </div>
+    <TimerTypes />
   </Layout>
 )
 

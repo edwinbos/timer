@@ -45,11 +45,23 @@ button {
 
 header {
     align-items: center;
-    background: var(--color--dark-grey);
-    display: flex;
-    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 6rem auto 6rem;
+    justify-items: center;
 }
 
 main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
     padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+a svg {
+    height: 2em;
+    width: 2em;
 }

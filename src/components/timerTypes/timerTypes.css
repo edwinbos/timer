@@ -3,3 +3,34 @@
     margin: 0;
     padding: 0;
 }
+
+.timer-types__item {
+    padding: 1rem;
+}
+
+.timer-types__link {
+    align-items: center;
+    background: var(--color--operator);
+    color: var(--color--dark-grey);
+    display: flex;
+    font-size: 3rem;
+    font-weight: 900;
+    height: 8rem;
+    justify-content: center;
+}
+
+.timer-types__link--amrap {
+    clip-path: polygon(4% 0, 100% 8%, 95% 94%, 11% 100%);
+}
+
+.timer-types__link--for-time {
+    clip-path: polygon(5% 8%, 94% 0, 100% 90%, 0 97%);
+}
+
+.timer-types__link--emom {
+    clip-path: polygon(4% 12%, 94% 0, 100% 100%, 0 93%);
+}
+
+.timer-types__link--tabata {
+    clip-path: polygon(4% 0, 100% 8%, 95% 94%, 11% 100%);
+}
