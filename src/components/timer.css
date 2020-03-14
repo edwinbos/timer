@@ -43,6 +43,7 @@ button {
     width: 100%;
 }
 
+.header,
 header {
     align-items: center;
     display: grid;
@@ -58,10 +59,17 @@ main {
 }
 
 h1 {
+    margin: 0;
     text-align: center;
 }
 
 a svg {
     height: 2em;
     width: 2em;
+}
+
+.page {
+    display: grid;
+    grid-template-rows: 8rem auto;
+    height: 100vh;
 }

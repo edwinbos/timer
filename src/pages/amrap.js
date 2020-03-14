@@ -27,7 +27,7 @@ const Amrap = () => {
         <div class="amrap">
           {active
             ? <Countdown seconds={(value * 60) + 10} />
-            : <input class="amrap__input" value={value} type="number" onChange={onInputChange} />
+            : <input class="amrap__input" value={value} type="number" onChange={onInputChange} placeholder="00" />
           }
           <button class="amrap__button" onClick={startTimer}>{`${active ? 'Stop' : 'Start'} timer`}</button>
         </div>
